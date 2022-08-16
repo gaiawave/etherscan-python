@@ -85,7 +85,7 @@ class Logs:
             f"{fields.ADDRESS}"
             f"{address}"
             # topic 0
-            f"{fields.TOPIC_0}"
+            f"{fields.TOPIC_0*bool(topic_0)}"
             f"{topic_0}"
             #
             # Everything below is optional. If not provided by user, then
