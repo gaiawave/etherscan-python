@@ -8,6 +8,7 @@ class ModulesEnum:
     CONTRACT: str = "contract"
     GASTRACKER: str = "gastracker"
     PROXY: str = "proxy"
+    LOGS: str = "logs"
     STATS: str = "stats"
     TOKEN: str = "token"
     TRANSACTION: str = "transaction"
